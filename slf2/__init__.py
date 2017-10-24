@@ -27,6 +27,10 @@ def main():
     stations = slf_api.stations()
     measurements = {}
     for station in stations:
+        print('Get measurements for station {0}'.format( stations[station]))
         measurement = slf_api.station_measurement(station)
         measurements[station] = measurement
+        print('Save measurements for station {0}'.format(stations[station]))
         influxdb_api.store_point(stations[station],station,measurement)
+
+    return "All done"
