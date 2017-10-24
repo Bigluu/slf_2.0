@@ -53,5 +53,5 @@ class SlfApi:
             return measurements
 
         except (RequestException, KeyError) as exc:
-            LOG.debug('could not read from api: %s', exc)
-            raise SlfError('could not read from api: %s' % exc) from None
+            LOG.debug('could not read from api: {0}'.format(exc))
+            raise SlfError('could not read from api: {0}'.format(exc)) from None
