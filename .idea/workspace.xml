@@ -49,8 +49,8 @@
       <file leaf-file-name="influxdbapi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slf2/influxdbapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="81" column="82" lean-forward="false" selection-start-line="81" selection-start-column="82" selection-end-line="81" selection-end-column="82" />
+            <state relative-caret-position="257">
+              <caret line="80" column="57" lean-forward="true" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
               <folding>
                 <element signature="e#39#53#0" expanded="true" />
               </folding>
@@ -61,8 +61,8 @@
       <file leaf-file-name="slfapi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slf2/slfapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+            <state relative-caret-position="383">
+              <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               <folding>
                 <element signature="e#37#51#0" expanded="true" />
               </folding>
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/slf2/__init__.py" />
-        <option value="$PROJECT_DIR$/slf2/influxdbapi.py" />
         <option value="$PROJECT_DIR$/slf2/slfapi.py" />
+        <option value="$PROJECT_DIR$/slf2/influxdbapi.py" />
       </list>
     </option>
   </component>
@@ -440,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slf2/influxdbapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="81" column="82" lean-forward="false" selection-start-line="81" selection-start-column="82" selection-end-line="81" selection-end-column="82" />
+        <state relative-caret-position="257">
+          <caret line="80" column="57" lean-forward="true" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
           <folding>
             <element signature="e#39#53#0" expanded="true" />
           </folding>
@@ -450,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slf2/slfapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+        <state relative-caret-position="383">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           <folding>
             <element signature="e#37#51#0" expanded="true" />
           </folding>
