@@ -10,7 +10,7 @@ from slf2.slfapi import SlfApi, SlfError
 from slf2.influxdbapi import InfluxDbApi
 
 LOG = logging.getLogger(__name__)
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 
 def main():
