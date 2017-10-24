@@ -24,7 +24,7 @@ setup(
 
     packages=find_packages(),
     install_requires=[
-        'influxdb'
+        'influxdb',
         'Flask'
     ],
 
