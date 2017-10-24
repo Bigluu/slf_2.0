@@ -25,12 +25,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'influxdb'
+        'Flask'
     ],
-
-    entry_points={
-        'console_scripts': [
-            'slf2 = slf2:main',
-        ],
-    },
 
 )

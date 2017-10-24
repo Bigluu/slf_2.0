@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34942809-e3a1-415c-95fe-b7d055db314f" name="Default" comment="Initial release" />
+    <list default="true" id="34942809-e3a1-415c-95fe-b7d055db314f" name="Default" comment="Initial release">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -67,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slfapi.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="slfapi.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/slf2/slfapi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
@@ -75,16 +77,6 @@
               <folding>
                 <element signature="e#37#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -122,7 +114,6 @@
         <option value="$PROJECT_DIR$/slf2/__main__.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/slf2/requirements.in" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/slf2/influxdb.py" />
         <option value="$PROJECT_DIR$/requirements.in" />
         <option value="$PROJECT_DIR$/config.py" />
@@ -130,6 +121,7 @@
         <option value="$PROJECT_DIR$/slf2/influxdbapi.py" />
         <option value="$PROJECT_DIR$/slf2/__init__.py" />
         <option value="$PROJECT_DIR$/wsgi.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -381,14 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slf2/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -410,16 +394,6 @@
         <state relative-caret-position="90">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slf2/slfapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,6 +431,24 @@
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slf2/slfapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
