@@ -8,6 +8,8 @@ import logging
 
 from influxdb import InfluxDBClient
 from influxdb.exceptions import InfluxDBClientError
+from requests.exceptions import RequestException
+
 
 LOG = logging.getLogger(__name__)
 
@@ -75,7 +77,7 @@ class InfluxDbApi:
             ]
             try:
                 self._client.write_points(json_body, 's')
-            except InfluxDBClientError as exc:
+            except (InfluxDBClientError, RequestException) as exc:
                 LOG.debug('could not write to InfluxDB: %s', exc)
                 raise InfluxDbError('could not write to InfluxDB: %s' % exc) from None
 
