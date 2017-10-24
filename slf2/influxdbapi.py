@@ -28,8 +28,8 @@ class InfluxDbApi:
     def store_point(self, station_name, station_id, measurements):
         for measurement in measurements:
             timestamp = int(measurement[0])
-            hs = float_or_zero(measurement[1] * 10)
-            hn6h = float_or_zero(measurement[8] * 10)
+            hs = float_or_zero(measurement[1])*10
+            hn6h = float_or_zero(measurement[8])*10
             ta = float_or_zero(measurement[3])
             tss = float_or_zero(measurement[4])
             vw = float_or_zero(measurement[5])
