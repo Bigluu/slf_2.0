@@ -77,8 +77,9 @@ class InfluxDbApi:
             ]
             try:
                 self._client.write_points(json_body, 's')
+                LOG.debug('writing points to InfluxDB: {0}'.format(json_body))
             except (InfluxDBClientError, RequestException) as exc:
-                LOG.debug('could not write to InfluxDB: %s', exc)
+                LOG.error('could not write to InfluxDB: %s', exc)
                 raise InfluxDbError('could not write to InfluxDB: %s' % exc) from None
 
 

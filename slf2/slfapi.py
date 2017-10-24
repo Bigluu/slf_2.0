@@ -35,7 +35,7 @@ class SlfApi:
 
             return stations
         except (RequestException, KeyError) as exc:
-            LOG.debug('could not read from api: %s', exc)
+            LOG.error('could not read from api: %s', exc)
             raise SlfError('could not read from api: %s' % exc) from None
 
     def station_measurement(self, station_id):
@@ -53,5 +53,5 @@ class SlfApi:
             return measurements
 
         except (RequestException, KeyError) as exc:
-            LOG.debug('could not read from api: %s', exc)
+            LOG.error('could not read from api: %s', exc)
             raise SlfError('could not read from api: %s' % exc) from None
